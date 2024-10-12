@@ -3,6 +3,7 @@
 namespace PHPageBuilder\Repositories;
 
 use PHPageBuilder\Core\DB;
+use Stancl\Tenancy\Database\Concerns\TenantConnection;
 
 /**
  * Class BaseRepository
@@ -13,6 +14,7 @@ use PHPageBuilder\Core\DB;
  */
 class BaseRepository
 {
+    use TenantConnection;
     /**
      * @var DB $db
      */

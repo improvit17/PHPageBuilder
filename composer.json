@@ -1,5 +1,5 @@
 {
-    "name": "hansschouten/phpagebuilder",
+    "name": "improvit17/phpagebuilder",
     "description": "A drag and drop pagebuilder to manage pages in any PHP project.",
     "keywords": [
         "pagebuilder"
@@ -9,8 +9,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Hans Schouten",
-            "email": "hans@falcosolutions.nl"
+            "name": "improivt",
+            "email": "info@improvit.nl"
         }
     ],
     "require": {
